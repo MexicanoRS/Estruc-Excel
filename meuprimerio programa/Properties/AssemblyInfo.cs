@@ -9,9 +9,9 @@ using System.Security;
 [assembly: AssemblyTitle("meuprimerio programa")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Tatuira CEO")]
 [assembly: AssemblyProduct("meuprimerio programa")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

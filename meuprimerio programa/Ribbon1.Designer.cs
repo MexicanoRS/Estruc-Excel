@@ -37,6 +37,7 @@
             this.tab1 = this.Factory.CreateRibbonTab();
             this.group1 = this.Factory.CreateRibbonGroup();
             this.OlaMundoBtn = this.Factory.CreateRibbonButton();
+            this.button1 = this.Factory.CreateRibbonButton();
             this.tab1.SuspendLayout();
             this.group1.SuspendLayout();
             this.SuspendLayout();
@@ -51,14 +52,25 @@
             // group1
             // 
             this.group1.Items.Add(this.OlaMundoBtn);
-            this.group1.Label = "group1";
+            this.group1.Items.Add(this.button1);
+            this.group1.Label = "Fase 1 - Nós";
             this.group1.Name = "group1";
             // 
             // OlaMundoBtn
             // 
+            this.OlaMundoBtn.Image = global::meuprimerio_programa.Properties.Resources.NósIn;
             this.OlaMundoBtn.Label = "Informar os nós";
             this.OlaMundoBtn.Name = "OlaMundoBtn";
+            this.OlaMundoBtn.ShowImage = true;
             this.OlaMundoBtn.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.OlaMundoBtn_Click);
+            // 
+            // button1
+            // 
+            this.button1.Image = global::meuprimerio_programa.Properties.Resources.NósOut;
+            this.button1.Label = "Carregar Nós";
+            this.button1.Name = "button1";
+            this.button1.ShowImage = true;
+            this.button1.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button1_Click);
             // 
             // Ribbon1
             // 
@@ -79,6 +91,7 @@
         internal Microsoft.Office.Tools.Ribbon.RibbonTab tab1;
         internal Microsoft.Office.Tools.Ribbon.RibbonGroup group1;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton OlaMundoBtn;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton button1;
         }
 
     partial class ThisRibbonCollection
