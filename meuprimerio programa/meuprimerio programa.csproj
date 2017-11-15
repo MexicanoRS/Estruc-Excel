@@ -180,11 +180,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Imagens e Icones\Icones\Nós Out .ico" />
-    <None Include="Resources\Imagens e Icones\Icones\Nós In.ico" />
+    <Resource Include="Resources\Imagens e Icones\Icones\Nós Out .ico" />
+    <Resource Include="Resources\Imagens e Icones\Icones\Nós In.ico" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Recursos e Imagens\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imagens e Icones\Icones\Barras In.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Imagens e Icones\Icones\Barras Out.ico" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

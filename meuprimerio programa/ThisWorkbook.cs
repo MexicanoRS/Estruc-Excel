@@ -12,17 +12,19 @@ namespace meuprimerio_programa
     {
         public Funções funções;
         public Excel.Worksheet Nós;
+        public Excel.Worksheet Conectividade;
         private void ThisWorkbook_Startup(object sender, System.EventArgs e)
         {
             Nós = (Excel.Worksheet)Globals.ThisWorkbook.Worksheets.Add();
             Nós.Visible = Excel.XlSheetVisibility.xlSheetVeryHidden;
             Nós.Name = "Nós";
+            Conectividade = (Excel.Worksheet)Globals.ThisWorkbook.Worksheets.Add();
+            Conectividade.Visible = Excel.XlSheetVisibility.xlSheetVeryHidden;
+            Conectividade.Name = "Conectividade";
 
 
 
-
-
-            funções = new Funções(Nós);
+            funções = new Funções(Nós, Conectividade);
             }
 
         private void ThisWorkbook_Shutdown(object sender, System.EventArgs e)

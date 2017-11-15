@@ -63,6 +63,46 @@ namespace meuprimerio_programa.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
         /// </summary>
+        internal static System.Drawing.Icon Barras_In {
+            get {
+                object obj = ResourceManager.GetObject("Barras_In", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+        /// </summary>
+        internal static System.Drawing.Icon Barras_Out {
+            get {
+                object obj = ResourceManager.GetObject("Barras_Out", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BarrasIn {
+            get {
+                object obj = ResourceManager.GetObject("BarrasIn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BarrasOut {
+            get {
+                object obj = ResourceManager.GetObject("BarrasOut", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
+        /// </summary>
         internal static System.Drawing.Icon Nós_In {
             get {
                 object obj = ResourceManager.GetObject("Nós_In", resourceCulture);
