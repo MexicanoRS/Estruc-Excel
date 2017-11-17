@@ -21,12 +21,12 @@ namespace meuprimerio_programa
             Globals.ThisWorkbook.funções.Iniciar_Planilha_Nós();
             }
 
-        private void button1_Click(object sender, RibbonControlEventArgs e)
+        private void Button1_Click(object sender, RibbonControlEventArgs e)
             {
             Globals.ThisWorkbook.funções.Iniciar_Ler_Pontos_dos_Nós();
             }
 
-        private void button2_Click(object sender, RibbonControlEventArgs e)
+        private void Button2_Click(object sender, RibbonControlEventArgs e)
             {
             Globals.ThisWorkbook.funções.Iniciar_Planilha_Conectividade();
             }
